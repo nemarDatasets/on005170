@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Chisco",
-  "description": "Chisco is a Chinese imagined speech EEG dataset comprising recordings from five participants across multiple sessions. The dataset includes raw EEG data collected over 5-6 sessions per participant, along with preprocessed data in both fif and pkl formats. It is designed to support research in brain-computer interfaces and speech imagery decoding using electroencephalography. Note: The dataset includes data from two cohorts collected under different BIDS protocol versions (sub-01 to sub-03 vs sub-04 to sub-05) to preserve compatibility with published data processing code.",
-  "methods_description": "EEG data were collected from five participants (sub-01 to sub-05) across 5-6 sessions per participant. Raw data are provided in EDF format, with preprocessed derivatives available in fif and pkl formats. Text stimuli used during data collection are included in the dataset.",
+  "description": "Chisco is a Chinese imagined speech EEG dataset comprising recordings from five participants across multiple sessions. The dataset includes raw EEG data collected over 5-6 days per participant, along with preprocessed data in both fif and pkl formats. This resource supports research in brain-computer interfaces and speech imagery decoding, with accompanying text stimuli used during data collection. Note: Participants sub-01 to sub-03 follow BIDS 1.6.0 protocol, while sub-04 and sub-05 (supplementary data) follow an earlier BIDS protocol version to maintain consistency with original publications. Future releases (Chisco 2.0) will include data from sub-06 and sub-07 under a new experimental paradigm.",
+  "methods_description": "EEG data were collected from five participants (sub-01 to sub-05) across 5-6 sessions per participant. Raw data are provided in EDF format, with preprocessed derivatives available in fif and pkl formats. Text stimuli used to elicit imagined speech responses are included in the dataset. Participants sub-01 to sub-03 conform to BIDS 1.6.0 protocol. Supplementary data from sub-04 and sub-05 follow an earlier BIDS protocol version to preserve compatibility with existing data processing code from related publications.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,7 +23,7 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "speech imagery"
+      "term": "motor imagery"
     },
     {
       "term": "Chinese language"
