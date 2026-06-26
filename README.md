@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005170-blue)](https://doi.org/10.82901/nemar.on005170)
+
 # Chisco Dataset
 
 This dataset is a Chinese imagined speech dataset with five participants, identified as sub-01 to sub-05. The dataset includes raw data and preprocessed data in both fif and pkl formats. Information also can be found in https://github.com/zhangzihan-is-good/Chisco
