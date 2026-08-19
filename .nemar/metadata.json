@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Chisco",
-  "description": "Chisco is a Chinese imagined speech EEG dataset comprising recordings from five participants across multiple sessions. The dataset includes raw EEG data collected over 5-6 days per participant, along with preprocessed data in both fif and pkl formats. This resource supports research in brain-computer interfaces and speech imagery decoding, with accompanying text stimuli used during data collection. Note: Participants sub-01 to sub-03 follow BIDS 1.6.0 protocol, while sub-04 and sub-05 (supplementary data) follow an earlier BIDS protocol version to maintain consistency with original publications. Future releases (Chisco 2.0) will include data from sub-06 and sub-07 under a new experimental paradigm.",
-  "methods_description": "EEG data were collected from five participants (sub-01 to sub-05) across 5-6 sessions per participant. Raw data are provided in EDF format, with preprocessed derivatives available in fif and pkl formats. Text stimuli used to elicit imagined speech responses are included in the dataset. Participants sub-01 to sub-03 conform to BIDS 1.6.0 protocol. Supplementary data from sub-04 and sub-05 follow an earlier BIDS protocol version to preserve compatibility with existing data processing code from related publications.",
+  "description": "Chisco is a Chinese imagined speech EEG dataset collected from five participants, each recorded over 5-6 sessions. The dataset includes raw EEG recordings and preprocessed data (in fif and pkl formats), along with accompanying text stimuli used to elicit imagined speech. It is intended to support research on imagined speech decoding and brain-computer interface applications using EEG signals.",
+  "methods_description": "EEG data were collected from five participants (sub-01 to sub-05) across 5-6 sessions per subject, during which participants performed an imagined speech task guided by textual stimuli. Raw EEG data are provided in EDF format, with preprocessed derivatives available in fif and pkl formats.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,13 +23,13 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "motor imagery"
-    },
-    {
       "term": "Chinese language"
     },
     {
-      "term": "neural decoding"
+      "term": "speech imagery"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -39,14 +39,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005170",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005170.v1.1.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005170",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
